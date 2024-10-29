@@ -1,0 +1,13 @@
+#TO convert temp from celcius to ferhanite and vice versa
+print("press 1 to comvert celcius to ferhanite")
+print("press 2 to convert ferhanite to celcius")
+ch=int(input("enter your choice"))
+if ch==1:
+    c1=float(input("enter temp in celcius:"))
+    f1=c1*1.8 
+    print("temp in ferhanite is:",f1)
+elif ch==2:
+    f2=float(input("enter temp in celcius"))
+    c2=(f2-32)*5/9
+    print("temp in celcius is:",c2)
+    
