@@ -1,0 +1,13 @@
+print("enter 1 to convert km to m")
+print("enter 2 to convert m to km")
+ch=int(input("enter characher:"))
+if ch==1:
+    km1=int(input("enter km value"))
+    m1=km1*1000
+    print("value in m is:",m1)
+elif ch==2:
+    m2=int(input("enter m value"))
+    km2=m2/1000
+    print("value in km is",km2)
+else:
+    print("something went wrong")
