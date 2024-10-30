@@ -1,0 +1,5 @@
+p=float(input("enter principle amount:"))
+r=float(input("enter rarte of intrest:"))
+n=float(input("enter time peroid:"))
+si=(p*r*n)/100
+print('simple intrest is:',si)
